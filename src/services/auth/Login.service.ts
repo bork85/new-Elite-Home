@@ -4,7 +4,7 @@ import prisma from "../../config/database";
 import "dotenv/config";
 import { AppError } from '../../utils/errors';
 
-interface LoginInput {
+export interface LoginInput {
     email: string;
     password: string;
 }

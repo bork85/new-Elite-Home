@@ -28,7 +28,7 @@ class CreateUserService {
                 email: input.email, 
                 phone: input.phone,
                 password: hashPassword, 
-                role: (input.role || "OPERATOR") as UserRole
+                role: (input.role || "OWNER") as UserRole
             }
         });
         return user;

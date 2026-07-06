@@ -1,7 +1,7 @@
 {
-  "name": "BoilerPlate BE TS FSF",
+  "name": "EliteHome API",
   "version": "1.0.0",
-  "description": "",
+  "description": "Set of REST APIs from EliteHome project",
   "main": "index.js",
   "scripts": {
     "dist": "tsup src",
@@ -11,7 +11,7 @@
     "prisma:migrate": "node --env-file=.env ./node_modules/.bin/prisma migrate dev"
   },
   "keywords": [],
-  "author": "unBork",
+  "author": "unBork - Soluções Digitais",
   "license": "ISC",
   "devDependencies": {
     "@types/bcrypt": "^6.0.0",
